@@ -1,0 +1,23 @@
+{
+  "name": "static-stitch",
+  "version": "1.0.0",
+  "description": "A static site using Eleventy",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx eleventy --serve --port=4242"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punitnathani/static-stitch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/punitnathani/static-stitch/issues"
+  },
+  "homepage": "https://github.com/punitnathani/static-stitch#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
