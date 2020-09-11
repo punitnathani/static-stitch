@@ -1,0 +1,16 @@
+---
+title: Prints
+prints:
+  - wines
+  - florals
+  - dragons
+---
+{% include "_head.njk" %}
+    <h1>{{ title }}</h1>
+    <img src="assets/logo.jpg" alt="Needlemaid logo with Darjeeling clock tower">
+    <ul>
+      {%- for print in prints -%}
+        <li>{{print}}</li>
+      {%- endfor -%}
+    </ul>
+{% include "_foot.njk" %}

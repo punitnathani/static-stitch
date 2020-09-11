@@ -1,0 +1,29 @@
+/* custom properties */
+:root {
+  --home-bg-colour: #E1B86A;
+  --home-text-colour: #676912;
+}
+
+/* body style */
+* {
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+/* home page */
+img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+/* footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 4em;
+  width: calc(100% - 1em);
+  padding: 0.5em;
+}

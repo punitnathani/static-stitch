@@ -4,6 +4,7 @@
   "description": "A static site using Eleventy",
   "main": "index.js",
   "scripts": {
+    "build": "npx eleventy",
     "serve": "npx eleventy --serve --port=4242"
   },
   "repository": {
