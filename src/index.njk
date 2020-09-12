@@ -1,16 +1,6 @@
 ---
-title: Prints
-prints:
-  - wines
-  - florals
-  - dragons
+layout: layouts/prime_layout.njk
+coverImg: assets/logo.jpg
+coverTitle: The NeedleMaid
+custom_cover_img: full-round index-logo
 ---
-{% include "_head.njk" %}
-    <h1>{{ title }}</h1>
-    <img src="assets/logo.jpg" alt="Needlemaid logo with Darjeeling clock tower">
-    <ul>
-      {%- for print in prints -%}
-        <li>{{print}}</li>
-      {%- endfor -%}
-    </ul>
-{% include "_foot.njk" %}

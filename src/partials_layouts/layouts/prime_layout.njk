@@ -1,0 +1,16 @@
+---
+
+---
+{% include "_head.njk" %}
+  <div class="container">
+    <div class="cover">
+      <img class="cover-img {{custom_cover_img}}" src="{{coverImg}}"/>
+      <h2 class="cover-title">
+        {{coverTitle}}
+      </h2>
+    </div>
+    <div class="page-content">
+      {{ content | safe }}
+    </div>
+  </div>
+{% include "_foot.njk" %}

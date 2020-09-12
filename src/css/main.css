@@ -2,6 +2,8 @@
 :root {
   --home-bg-colour: #E1B86A;
   --home-text-colour: #676912;
+  --cover-img-width: 300px;
+  --cover-img-height: 400px;
 }
 
 /* body style */
@@ -10,11 +12,36 @@
   font-family: 'Dosis', sans-serif;
 }
 
-/* home page */
-img {
-  width: 400px;
-  height: 400px;
+/* utility classes */
+.full-round {
   border-radius: 50%;
+}
+
+/* prime layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.container > .cover {
+  display: flex;
+  flex-direction: column;
+}
+.container > .cover > img.cover-img {
+  width: var(--cover-img-width);
+  height: var(--cover-img-height);
+}
+.container > .cover > h2.cover-title {
+  text-align: center;
+}
+.container > .page-content {
+  flex-grow: 1;
+}
+
+/* home page */
+.container > .cover > img.index-logo {
+  height: 300px;
 }
 
 /* footer */
