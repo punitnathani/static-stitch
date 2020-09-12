@@ -1,0 +1,19 @@
+{
+  "collections": [{
+    "name": "sleeves",
+    "img": "https://res.cloudinary.com/theneedlemaid/image/upload/v1599933732/products/index_sleeves_bcsoox.jpg",
+    "alt": "book sleeves with a kindle"
+  }, {
+    "name": "scrunchies",
+    "img": "https://res.cloudinary.com/theneedlemaid/image/upload/v1599933733/products/index_scrunchies_r9b4kd.jpg",
+    "alt": "hand with 3 scrunchies on wrist near to a green bush"
+  }, {
+    "name": "slings",
+    "img": "https://res.cloudinary.com/theneedlemaid/image/upload/v1599933732/products/index_slings_a7oceh.jpg",
+    "alt": "little bags with slings in four different prints"
+  }, {
+    "name": "stamps",
+    "img": "https://res.cloudinary.com/theneedlemaid/image/upload/v1599933732/products/index_stamps_evqvqp.jpg",
+    "alt": "a set of stamps with ink-pad under warm fairy lighting"
+  }]
+}

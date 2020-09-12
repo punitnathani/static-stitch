@@ -4,3 +4,16 @@ coverImg: assets/logo.jpg
 coverTitle: The NeedleMaid
 custom_cover_img: full-round index-logo
 ---
+<div class="page">
+  <section class="section-title">
+    <h3>Collections</h3>
+  </section>
+  <div class="card-grid">
+    {% for item in homepage.collections %}
+      <div class="card">
+        <img src="{{item.img}}" loading="lazy" alt={{item.alt}}/>
+        <span class="caption">{{item.name}}</span>
+      </div>
+    {% endfor %}
+  </div>
+</div>
