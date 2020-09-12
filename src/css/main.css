@@ -1,15 +1,26 @@
 /* custom properties */
 :root {
+  /* colours */
   --home-bg-colour: #E1B86A;
   --home-text-colour: #676912;
+
+  /* dimensions */
   --cover-img-width: 300px;
   --cover-img-height: 400px;
+  --foter-height: 3rem;
 }
 
 /* body style */
 * {
   box-sizing: border-box;
   font-family: 'Dosis', sans-serif;
+}
+div#entire-page {
+  position: relative;
+  min-height: 98vh;
+}
+div#content-wrap {
+  padding-bottom: var(--foter-height);
 }
 
 /* utility classes */
@@ -50,7 +61,7 @@
   bottom: 0;
   display: flex;
   justify-content: space-between;
-  height: 4em;
+  height: var(--foter-height);
   width: calc(100% - 1em);
   padding: 0.5em;
 }
