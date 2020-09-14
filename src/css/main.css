@@ -50,6 +50,7 @@ div#content-wrap {
 }
 .container > .page-content {
   flex-grow: 1;
+  width: 100%;
 }
 
 /* home page */
@@ -73,6 +74,13 @@ div#content-wrap {
 .card-grid > .card > .caption {
   text-align: center;
   text-transform: capitalize;
+}
+section.single-section {
+  display: flex;
+  flex-direction: column;
+}
+section.single-section .center {
+  align-self: center;
 }
 
 /* footer */
