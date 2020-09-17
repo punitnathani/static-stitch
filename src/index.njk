@@ -8,18 +8,49 @@ eleventyNavigation:
   order: 0
 ---
 <div class="page home-page">
-  <section class="single-section">
-    <h3>Collections</h3>
-    <div class="card-grid center">
+  <section class="info info-text">
+    <h1>Our story</h1>
+    <p>
+      Imagine a land of peace and music and aroma of delicacies. A land where clouds play a magic mist and
+    </p>
+    <p>
+      Sourced from the foothills of the Himalayas, we present an exclusive collection of fabric merchandise.
+      Carefully selected fabrics that shine the light of smiles and manifest the radiant artistic fervour.
+      And then meticulously crafted by hand into substance of desires that leave you elated and wanting for more.
+    </p>
+    <p>
+      Luxurious. Hand-made. Sustainable. Zero waste. Rebel.
+    </p>
+    <p>
+      Imagine fabric. Imagine us.
+    </p>
+  </section>
+
+  <section class="info">
+    <h1>Collections</h1>
+    <div class="card-grid">
       {% for item in homepage.collections %}
         <div class="card">
-          <img src="{{item.img}}" loading="lazy" alt="{{item.alt}}"/>
-          <span class="caption">{{item.name}}</span>
+          <a href="/collections/{{item.name}}">
+            <img
+              src="{{item.img_url}}"
+              loading="lazy"
+              class="card-media"
+              alt="{{item.alt}}"/>
+          </a>
+          <div class="card-details center">
+            <h3 class="card-head">{{item.name}}</h3>
+          </div>
         </div>
       {% endfor %}
+
+        <div class="card more-card">
+          <div class="card-details">
+            <h3 class="card-head">
+              <a href="/collections/">And more...</a>
+            </h3>
+          </div>
+        </div>
     </div>
-    <p>
-      Lorem ipsum
-    </p>
   </section>
 </div>

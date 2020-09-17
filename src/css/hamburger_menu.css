@@ -1,6 +1,6 @@
 .header {
   background-color: #fff;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 3;
@@ -125,9 +125,10 @@
 
   .header .menu {
     clear: none;
+    display: inline-block;
     float: right;
     max-height: none;
-    display: inline-block;
+    box-shadow: none;
   }
 
   .header .menu-icon {
