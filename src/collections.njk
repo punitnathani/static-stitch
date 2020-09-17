@@ -1,0 +1,18 @@
+---
+layout: layouts/prime_layout.njk
+title: Collections -
+coverImg: https://res.cloudinary.com/theneedlemaid/image/upload/a_270/v1600338635/products/showcase_red_hiwosa.jpg
+coverTitle: Collections
+eleventyNavigation:
+  key: Collections
+  order: 1
+---
+<div class="page collections-page">
+  <ul>
+      {% for item in collections.products %}
+        <li>
+          <a href="{{item.url}}">{{item.data.coverTitle}}</a>
+        </li>
+      {% endfor %}
+  </ul>
+</div>
