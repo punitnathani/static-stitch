@@ -7,13 +7,13 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-<div class="page">
+<div class="page home-page">
   <section class="single-section">
     <h3>Collections</h3>
     <div class="card-grid center">
       {% for item in homepage.collections %}
         <div class="card">
-          <img src="{{item.img}}" loading="lazy" alt={{item.alt}}/>
+          <img src="{{item.img}}" loading="lazy" alt="{{item.alt}}"/>
           <span class="caption">{{item.name}}</span>
         </div>
       {% endfor %}

@@ -3,11 +3,36 @@ tags: products
 layout: layouts/showcase_layout.njk
 title: Sleeves -
 coverImg: https://res.cloudinary.com/theneedlemaid/image/upload/a_270/v1600338635/products/showcase_red_hiwosa.jpg
-coverTitle: Book Sleeves
+coverTitle: Sleeves
 permalink: "collections/sleeves.html"
 ---
-<div class="page collections-page">
-  <section>
-    This is sleeves
+<div class="page showcase-page">
+  <h1>{{coverTitle}}</h1>
+  <section class="info">
+    <p>
+      If you are an avid book lover like me, there is nothing as precious as books.
+      If you don't go places without a book, why let the book travel without a protecting cover?
+    </p>
+    <p>
+      Zip locked. Soft padding. Waterproof lining. Washable. Ample space.
+    </p>
+    <p>
+      Available in 5 sizes: Utility pouches | Kindle | medium | XL/iPad | Laptop/Macbook.
+    </p>
+    <p>
+      And yes, they can be customised the way you want them to be.
+    </p>
   </section>
+
+  <div class="card-grid">
+    {% for item in products.sleeves %}
+      <div class="card">
+        <img src="{{item.img_url}}" loading="lazy" class="card-media" alt="{{item.alt}}"/>
+        <div class="card-details">
+          <h3 class="card-head">{{item.name}}</h3>
+          <span class="caption">{{item.caption}}</span>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>

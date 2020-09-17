@@ -19,7 +19,7 @@
 /* body style */
 * {
   box-sizing: border-box;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 div#entire-page {
   position: relative;
@@ -28,12 +28,17 @@ div#entire-page {
 div#content-wrap {
   padding-top: var(--header-height);
   padding-bottom: var(--foter-height);
+  padding-left: 0.75em;
+  padding-right: 0.75em;
   font-size: var(--base-font-size);
 }
 
 /* utility classes */
 .full-round {
   border-radius: 50%;
+}
+.page {
+  margin-bottom: 2rem;
 }
 
 /* prime layout */
@@ -62,29 +67,29 @@ div#content-wrap {
 }
 
 /* home page */
-.card-grid {
+.home-page .card-grid {
   display: grid;
   grid-template-columns: repeat(2, calc(var(--card-img-width) + 2em));
   column-gap: 2rem;
   row-gap: 2rem;
 }
-.card-grid > .card {
+.home-page .card-grid > .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.card-grid > .card > img {
+.home-page .card-grid > .card > img {
   width: var(--card-img-width);
 }
-.card-grid > .card > .caption {
+.home-page .card-grid > .card > .caption {
   text-align: center;
   text-transform: capitalize;
 }
-section.single-section {
+.home-page section.single-section {
   display: flex;
   flex-direction: column;
 }
-section.single-section .center {
+.home-page section.single-section .center {
   align-self: center;
 }
 
@@ -93,6 +98,39 @@ section.single-section .center {
 /* About page */
 .container > .cover > img.about-me {
   height: 400px;
+}
+
+/* Showcase pages */
+div.showcase-page > section.info {
+  margin-bottom: 2rem;
+}
+div.showcase-page > section.info p{
+  margin: 0.75em 0;
+}
+div.showcase-page > .card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));;
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+div.showcase-page > .card-grid > .card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: -1px 2px 4px rgba(0,0,0,.25), 1px 1px 3px rgba(0,0,0,.1);
+  min-width: 320px;
+  max-width: 340px;
+  margin: auto;
+}
+div.showcase-page > .card-grid > .card > .card-media{
+  width: 100%;;
+}
+div.showcase-page > .card-grid > .card > .card-details {
+  padding: 0.8em;
+}
+div.showcase-page > .card-grid > .card > .card-details > .card-head {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0 auto 0.5em;
 }
 
 /* footer */

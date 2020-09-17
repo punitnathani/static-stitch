@@ -16,6 +16,7 @@
 
 .header li a {
   display: block;
+  color: #C14414;
   padding: 0.75em 1em;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
@@ -42,6 +43,7 @@
   clear: both;
   display: none;
   transition: max-height .2s ease-out;
+  box-shadow: 8px 8px 8px -4px rgb(0,0,0,0.1);;
 }
 
 /* menu icon */
