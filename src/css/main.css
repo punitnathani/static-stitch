@@ -4,9 +4,13 @@
   --home-bg-colour: #E1B86A;
   --home-text-colour: #676912;
 
+  /* font */
+  --base-font-size: 14px;
+
   /* dimensions */
   --cover-img-width: 300px;
   --cover-img-height: 400px;
+  --header-height: 64px;
   --foter-height: 3rem;
   --card-img-width: 250px;
   --card-img-height: 250px;
@@ -22,7 +26,9 @@ div#entire-page {
   min-height: 98vh;
 }
 div#content-wrap {
+  padding-top: var(--header-height);
   padding-bottom: var(--foter-height);
+  font-size: var(--base-font-size);
 }
 
 /* utility classes */
