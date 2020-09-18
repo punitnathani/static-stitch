@@ -8,11 +8,20 @@ eleventyNavigation:
   order: 1
 ---
 <div class="page collections-page">
-  <ul>
+  <section class="info">
+    <p>
+      A fabric has endless possibilities. And when there are so many fabrics, the magic just gets started.
+    </p>
+    <p>
+      We extensively cater to demands for any fabric products.
+      You can go through some of the more popular items in our store, or simply ask to help us find something that suits your needs.
+    </p>
+  </section>
+  <div class="list-grid">
       {% for item in collections.products %}
-        <li>
+        <div class="list-card">
           <a href="{{item.url}}">{{item.data.coverTitle}}</a>
-        </li>
+        </div>
       {% endfor %}
-  </ul>
+  </div>
 </div>

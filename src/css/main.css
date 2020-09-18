@@ -72,7 +72,6 @@ div#content-wrap {
 /* All pages */
 div.page > section.info {
   margin-bottom: 2rem;
-  max-width: 50rem;
 }
 div.page > section.info.info-text {
   /* 2 cards + column-gap  */
@@ -114,6 +113,9 @@ div.home-page {
   flex-direction: column;
   align-items: center;
 }
+div.home-page > section.info {
+  max-width: 50rem;
+}
 div.home-page > section > div.card-grid {
   grid-template-columns: repeat(2, 320px);
 }
@@ -129,6 +131,23 @@ div.home-page > section > div.card-grid > .more-card .card-head > a {
 }
 
 /* Collections Page */
+div.list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+}
+div.list-card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.25);
+  font-size: 1.2em;
+  width: 300px;
+  margin: 1em auto;
+  padding: 1.5em;
+  text-align: center;
+}
+div.list-card a {
+  color: black;
+}
 
 /* About page */
 .container > .cover > img.about-me {

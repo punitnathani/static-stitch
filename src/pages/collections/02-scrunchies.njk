@@ -1,0 +1,34 @@
+---
+tags: products
+layout: layouts/showcase_layout.njk
+title: Scrunchies -
+coverImg: https://res.cloudinary.com/theneedlemaid/image/upload/a_270/v1600338635/products/showcase_red_hiwosa.jpg
+coverTitle: Scrunchies
+permalink: "collections/scrunchies/index.html"
+---
+<div class="page showcase-page">
+  <h1>{{coverTitle}}</h1>
+  <section class="info">
+    <p>
+      Your hair deserve all the love and some scrunchies. The NeedleMaid presents a fashionable line of smooth fabric scrunchies made from our collection of opulent fabrics.
+    </p>
+    <p>
+      We also introduce you the scarf-scrunchies: a combination of a head scarf or a scrunchie.
+    </p>
+    <p>
+      Pick from the available options or just ask about a fabric you love.
+    </p>
+  </section>
+
+  <div class="card-grid">
+    {% for item in products.scrunchies %}
+      <div class="card">
+        <img src="{{item.img_url}}" loading="lazy" class="card-media" alt="{{item.alt}}"/>
+        <div class="card-details">
+          <h3 class="card-head">{{item.name}}</h3>
+          <span class="caption">{{item.caption}}</span>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
