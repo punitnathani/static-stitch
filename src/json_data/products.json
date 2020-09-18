@@ -51,5 +51,40 @@
     "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1599926125/products/WhiteWine_sleeves_j5r55o.jpg",
     "alt": "book sleeves in wine coloured fabric with a print of golden flowers",
     "caption": "Our most popular and widely loved fabric"
+  }],
+
+  "headbands": [{
+    "name": "Little Dragons",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406715/products/Wearables/band6_wfo2mp.jpg",
+    "alt": "Green headband with print of little dragons and magnolia flowers",
+    "caption": "Green headband with print of little dragons and magnolia flowers"
+  }, {
+    "name": "Gusu Edition",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406715/products/Wearables/band3_kowlea.jpg",
+    "alt": "Silver headband with blue and shining silver flowers",
+    "caption": "A love story from the Orient"
+  }, {
+    "name": "Golden escape",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406715/products/Wearables/band7_wbwcwc.jpg",
+    "alt": "Yellow silken headband with golden flowers"
+  }, {
+    "name": "Combination band",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406715/products/Wearables/band4_l859s0.jpg",
+    "alt": "blue silk and champagne flowers combined with black silk and golden flowers"
+  }, {
+    "name": "Wine Tulle",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406715/products/Wearables/band1_r2sj9b.jpg",
+    "alt": "tulle fabric headband in purple colour",
+    "caption": "Full tulle edition in colours of wine"
+  }, {
+    "name": "Sunset garden",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406716/products/Wearables/band9_d96fif.jpg",
+    "alt": "Combination headband with velour and silk featuring little dragons",
+    "caption": "Combination headband with velour and silk featuring little dragons"
+  }, {
+    "name": "Blue bobby",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406716/products/Wearables/band11_j25drj.jpg",
+    "alt": "blue silk headband with white polka print",
+    "caption": "Forever fashion: one for the mom, one for the baby"
   }]
 }
