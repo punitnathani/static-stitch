@@ -86,5 +86,52 @@
     "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406716/products/Wearables/band11_j25drj.jpg",
     "alt": "blue silk headband with white polka print",
     "caption": "Forever fashion: one for the mom, one for the baby"
+  }],
+
+  "misc": [{
+    "name": "Zippered utility sleeve",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406764/products/Utilities/util01_gvajiq.jpg",
+    "alt": "A hand holding a black printed utility sleeve with stationery items pouring out on a black fabric",
+    "caption": "For all your utilities"
+  }, {
+    "name": "Fabric wallets",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406764/products/Utilities/util02_prmgle.jpg",
+    "alt": "Five different fabric wallets laid down serially",
+    "caption": "Quick. Easy. Fun-sized."
+  }, {
+    "name": "Fabric Bookmarks",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406767/products/Utilities/mark01_njv4wi.jpg",
+    "alt": "various coloured bookmarks made from different fabrics",
+    "caption": "Awesomeness between the pages"
+  }, {
+    "name": "Earphone pouch",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406767/products/Utilities/misc04_psmqrw.jpg",
+    "alt": "two square purple pouches with zippers and a pair of earphones",
+    "caption": "Zippered little pouch to hold those earphones: square shape"
+  }, {
+    "name": "Earphone pouch",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406762/products/Utilities/misc02_j6dbzv.jpg",
+    "alt": "blue round zippered little pouch with earphones",
+    "caption": "Zippered little pouch to hold those earphones: round shape"
+  }, {
+    "name": "Lunch bags",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406763/products/Utilities/misc01_ykuclw.jpg",
+    "alt": "A lunch bad made from kira fabric",
+    "caption": "Washable eco friendly lunch bags"
+  }, {
+    "name": "Banner",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406765/products/Utilities/misc03_na5oyx.jpg",
+    "alt": "A hanging blue silk banner with silver florets",
+    "caption": "Customised stylish banners"
+  }, {
+    "name": "Utility pouches",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406764/products/Utilities/util03_snrnqy.jpg",
+    "alt": "Four utility pouches",
+    "caption": "Anytime. Anywhere."
+  }, {
+    "name": "Fridge handle covers",
+    "img_url": "https://res.cloudinary.com/theneedlemaid/image/upload/v1600406763/products/Utilities/misc05_owi4vc.jpg",
+    "alt": "Two pairs of handle covers for refridgerator and a little wooden boat for showcase",
+    "caption": "Covers for refridgerator door handles. Washable. Reversible. Fashionable."
   }]
 }

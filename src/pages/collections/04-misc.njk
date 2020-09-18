@@ -1,27 +1,25 @@
 ---
 tags: products
 layout: layouts/showcase_layout.njk
-title: Headbands -
-coverTitle: Headbands
-permalink: "collections/headbands/index.html"
+title: Miscellaneous -
+coverTitle: And then there were more
+permalink: "collections/others/index.html"
 ---
 <div class="page showcase-page">
   <h1>{{coverTitle}}</h1>
   <section class="info">
     <p>
-      Rockbands and headbands are the two bands we are fond of. 
-      While you listen to your rock playlist, sport these headbands from our store.
+      At The NeedleMaid, we try to honour the fabrics and mould them into shapes & ideas.
+      These are but a limited set of the endless possibilities and customisations available.
     </p>
     <p>
-      As always, select from the available options or just ask about a fabric you love.
-    </p>
-    <p>
-      Sorry husbands.
+      Our store currently features over 25 different products.
+      Enquire about them or simply present us your idea to help it turn into reality.
     </p>
   </section>
 
   <div class="card-grid">
-    {% for item in products.headbands %}
+    {% for item in products.misc %}
       <div class="card">
         <img src="{{item.img_url}}" loading="lazy" class="card-media" alt="{{item.alt}}"/>
         <div class="card-details">
