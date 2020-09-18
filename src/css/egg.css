@@ -1,0 +1,35 @@
+/* CSS for easter egg  */
+div#egg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  z-index: 99;
+  overflow-y: auto;
+  visibility: visible;
+  /* styles */
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  transition: all 0.3s;
+}
+
+div#egg > button#closeEgg {
+  align-self: flex-end;
+  background: white;
+  font-size: 1.2em;
+}
+div#egg > div.modal-body {
+  margin: 1rem;
+}
+div#egg > div.modal-body > h1 {
+  color: #96312D;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+}
+div#egg > div.modal-body > img {
+  width: 100%;
+}
+

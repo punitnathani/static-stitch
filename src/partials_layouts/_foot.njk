@@ -9,4 +9,26 @@
     </footer>
   </div> <!-- ends entire-page -->
   </body>
+
+  <div id="egg">
+    <button id="closeEgg">X</button>
+    <div class="modal-body">
+      <h1>HAPPY BIRTHDAY ICHHA!</h1>
+      <img src="https://res.cloudinary.com/theneedlemaid/image/upload/v1600433653/products/PandaTree_fyjqmz.png" alt="pandas on a tree">
+      <h1>🎂🎈🐼🌸🐉🎉🥂</h1>
+    </div>
+  </div>
+
+  <link rel="stylesheet" href="../../css/egg.css">
+  <script type="text/javascript" src="../../js/konami.js"></script>
+  <script type="text/javascript">
+    const eggModal = document.getElementById('egg');
+    const eggCloseElem = document.getElementById('closeEgg');
+    var konami = new Konami(function() {
+      eggModal.style.setProperty('visibility', 'visible');
+    });
+    eggCloseElem.addEventListener("click", () => {
+      eggModal.style.setProperty('visibility', 'hidden');
+    });
+  </script>
 </html>
