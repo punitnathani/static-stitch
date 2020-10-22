@@ -157,6 +157,12 @@ div.list-card a {
 
 /* Showcase pages */
 
+/* 404 page  */
+div.page-404 img.thread-404 {
+  border-radius: 0.5em;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.4);
+  max-height: 60vh;
+}
 /* footer */
 .footer {
   position: absolute;
@@ -175,5 +181,9 @@ div.list-card a {
   }
   div.page > section.info.info-text {
     width: calc(320px + 1rem);
+  }
+  div.page-404 > section.info > img.thread-404 {
+    width: 80vw;
+    height: 50vh;
   }
 }
