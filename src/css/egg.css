@@ -8,7 +8,7 @@ div#egg {
   background-color: white;
   z-index: 99;
   overflow-y: auto;
-  visibility: visible;
+  visibility: hidden;
   /* styles */
   display: flex;
   flex-direction: column;
